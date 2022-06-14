@@ -1,0 +1,27 @@
+.card {
+    width: 93%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    font-size: 14px;
+    border: 1px solid rgb(181, 179, 179);
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img{
+    width: 20px;
+    height: 20px;
+}
+
+.imgWrapper{
+    display: flex;
+    gap: 10px;
+}
+.imgWrapper > p, .price{
+    margin: 0px;
+    font-weight: 600;
+    color: rgb(75, 74, 74);
+}
